@@ -46,7 +46,7 @@ const Login = () => {
             password: formData.password,
           };
 
-      const response = await axios.post(`https://nodejs-django.onrender.com${endpoint}`, payload);
+      const response = await axios.post(`https://nodejs-django.onrender.com/api${endpoint}`, payload);
 
       if (isLoginMode) {
         localStorage.setItem('user', JSON.stringify(response.data));
