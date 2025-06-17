@@ -67,7 +67,7 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-blue-200 px-4 ">
           
              
-      <div className="bg-blue-300 text-black shadow-md  px-8 py-6 w-full max-w-md rounded-4xl h-1/2">
+      <div className="bg-blue-300 text-black   max-sm:mb-20 max-lg:mb-30 shadow-md  px-18 py-6 w-full max-w-md rounded-4xl h-1/2">
         <h2 className="text-2xl font-bold mb-6 text-center">
           {isLoginMode ? 'Login to Gigfloww' : 'Create your Gigfloww account'}
         </h2>
@@ -81,7 +81,7 @@ const Login = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="input input-bordered"
+              className="input input-bordered rounded-2xl"
             />
           )}
 
@@ -92,7 +92,7 @@ const Login = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="input input-bordered"
+            className="input input-bordered rounded-2xl"
           />
 
           <input
@@ -102,7 +102,7 @@ const Login = () => {
             value={formData.password}
             onChange={handleChange}
             required
-            className="input input-bordered"
+            className="input input-bordered rounded-2xl"
           />
 
           {!isLoginMode && (
@@ -113,7 +113,7 @@ const Login = () => {
               value={formData.confirmPassword}
               onChange={handleChange}
               required
-              className="input input-bordered"
+              className="input input-bordered rounded-2xl"
             />
           )}
 
