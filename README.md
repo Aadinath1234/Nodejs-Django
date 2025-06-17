@@ -2,6 +2,8 @@
 
 This is a full-stack web application built using **React**, **Tailwind CSS**, and **DaisyUI** on the frontend, with **Node.js + MongoDB** handling user authentication and **Django + SQLite** handling task management. The app supports user authentication, task CRUD operations, and CSV export functionality.
 
+🔗 Live Demo: https://taskmanager-psi-six.vercel.app/
+
 ---
 
 ## 🛠️ Tech Stack
