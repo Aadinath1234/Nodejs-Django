@@ -16,7 +16,7 @@ app = FastAPI()
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-app = FastAPI()
+# app = FastAPI()
 
 # CORS settings
 app.add_middleware(
