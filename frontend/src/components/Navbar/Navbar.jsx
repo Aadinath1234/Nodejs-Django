@@ -44,27 +44,27 @@ function Navbar() {
       </div>
       <div className="navbar-center hidden lg:flex justify-center items-center font-[Gilroy] text-white ">
         <ul className="menu menu-horizontal px-1 flex justify-center items-center text-lg">
-         <Link to='/dashboard'>
+        
          <li className="  text-[#31AEF3] bg-white rounded-4xl p-4 text-lg">
-            Dashboard
+            Home 
           </li>
-         </Link> 
-         <Link to="/people">
+        
+        
          <li>
-            <a>People</a>
+            <a>About </a>
           </li>
-         </Link> 
+       
           
-        <Link to="/salary">
+        
          <li>
-            <a>Salary</a>
+            <a>Contact Us </a>
           </li>
-        </Link> 
-        <Link to="/form">
+        
+       
         <li>
-            <a>Form </a>
+            <a>Services  </a>
           </li>
-        </Link>
+      
           
         </ul>
       </div>
@@ -74,12 +74,6 @@ function Navbar() {
             <Link to="/login"><p>Login</p></Link>
           </div>
 
-          <div className="rounded-2xl p-2 bg-white">
-            <Link to="/signup"><p>Signup</p></Link>
-          </div>
-          <div>
-            <img src="\assets\Frame 2610930.png" alt="notification" />
-          </div>
         </div>
       </div>
     </div>
