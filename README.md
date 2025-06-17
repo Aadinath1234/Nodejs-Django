@@ -1,6 +1,8 @@
 # 📝 Full Stack Task Manager App
 
 This is a full-stack web application built using **React**, **Tailwind CSS**, and **DaisyUI** on the frontend, with **Node.js + MongoDB** handling user authentication and **Django + SQLite** handling task management. The app supports user authentication, task CRUD operations, and CSV export functionality.
+Design and developed for : Living Things, 6036, 6th Floor, Rahul Bajaj Technology and Innovation Center (RBTIC), IIT Bombay, Powai, Mumbai, Maharashtra - 400 076.
+#https://in.linkedin.com/company/living-things-feel-free
 
 🔗 Live Demo: https://taskmanager-psi-six.vercel.app/
 
