@@ -17,7 +17,7 @@ const Task = () => {
 
   // Axios instance for FastAPI backend
   const api = axios.create({
-    baseURL: "http://localhost:8000", // Adjust if your FastAPI isn't prefixed with /api
+    baseURL: "https://django-backend2.onrender.com", // Adjust if your FastAPI isn't prefixed with /api
     headers: {
       Authorization: `Bearer ${user?.token}`,
     },
