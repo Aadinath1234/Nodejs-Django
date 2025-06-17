@@ -21,7 +21,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 # CORS settings
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://taskmanager-psi-six.vercel.app"],  # or ["*"] to allow all origins (not recommended for prod)
+    allow_origins=["https://taskmanager-psi-six.vercel.app/task"],  # or ["*"] to allow all origins (not recommended for prod)
     allow_credentials=True,
     allow_methods=["*"],  # Allows GET, POST, PUT, DELETE, etc.
     allow_headers=["*"],  # Allows Authorization, Content-Type, etc.
