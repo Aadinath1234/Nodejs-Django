@@ -102,6 +102,8 @@ const Task = () => {
     setEditId(task.id);
   };
 
+
+
   const handleExport = async () => {
     try {
       const response = await api.get("/tasks/export/", {
@@ -119,8 +121,15 @@ const Task = () => {
     }
   };
 
+
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    alert("Logged out successfully");
+    navigate("/"); 
+  };
+
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-6 max-w-3xl mx-auto  ">
       <h2 className="text-2xl font-bold mb-4">Manage Tasks</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4 mb-6">
@@ -165,6 +174,9 @@ const Task = () => {
       <div className="mb-4 text-right">
         <button onClick={handleExport} className="btn bg-blue-300">
           Export to Excel
+        </button>
+        <button onClick={handleLogout} className="btn bg-black text-white ">
+           Logout
         </button>
       </div>
 
