@@ -203,12 +203,12 @@ const Task = () => {
                 </p>
               </div>
               <div className="flex gap-2">
-                <button onClick={() => handleEdit(task)} className="btn btn-sm">
+                <button onClick={() => handleEdit(task)} className="btn bg-black text-white ">
                   Edit
                 </button>
                 <button
                   onClick={() => handleDelete(task.id)}
-                  className="btn btn-sm btn-error"
+                  className="btn bg-black text-white"
                 >
                   Delete
                 </button>
