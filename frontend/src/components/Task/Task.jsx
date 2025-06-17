@@ -33,7 +33,7 @@ const Task = () => {
 
   const fetchTasks = async () => {
     try {
-      const res = await api.get("/tasks");
+      const res = await api.get("/tasks/");
       setTasks(res.data);
     } catch (err) {
       console.error("Failed to fetch tasks", err);
